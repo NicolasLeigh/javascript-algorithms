@@ -1,3 +1,4 @@
+# 43. Multiply Strings
 def multiply(num1, num2):
     # If either number is "0", the result is "0"
     if num1 == "0" or num2 == "0":
@@ -11,8 +12,8 @@ def multiply(num1, num2):
         for j in range(len(num2) - 1, -1, -1):
             # Multiply the digits
             mul = (ord(num1[i]) - ord('0')) * (ord(num2[j]) - ord('0'))
-            p1 = i + j
-            p2 = i + j + 1
+            p1 = i + j        # "tens" place （十位）
+            p2 = i + j + 1    # "ones" place （个位）
 
             # Add the current multiplication result to the corresponding position
             sum_val = mul + result[p2]

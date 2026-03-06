@@ -15,7 +15,7 @@ def isPalindrome(x: int) -> bool:
     s = str(x)
     length = len(s)
 
-    for i in range(length // 2 + 1):
+    for i in range(length // 2):
         if s[i] != s[length - 1 - i]:
             return False
 

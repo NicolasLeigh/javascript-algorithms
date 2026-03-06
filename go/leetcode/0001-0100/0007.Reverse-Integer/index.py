@@ -18,7 +18,27 @@ class Solution:
             tmp = tmp * 10 + (x % 10)
             x //= 10  # Integer division to remove the last digit
 
+        # is 'tmp < -2**31' redundant? 
         if tmp > 2**31 - 1 or tmp < -2**31:
             return 0
 
         return -tmp if sign else tmp
+
+# A better one
+# 7. Reverse Integer
+class Solution:
+    def reverse(self, x: int) -> int:
+        tmp = 0
+        sign = 1 if x >= 0 else -1  # Assign 1 or -1 based on the sign of x
+        x = abs(x)
+
+        while x:
+            tmp = tmp * 10 + (x % 10)
+            x //= 10  # Integer division to remove the last digit
+
+        tmp *= sign  # Apply the sign to the reversed number
+
+        if tmp > 2**31 - 1 or tmp < -2**31:
+            return 0  # Check for overflow after applying the sign
+
+        return tmp

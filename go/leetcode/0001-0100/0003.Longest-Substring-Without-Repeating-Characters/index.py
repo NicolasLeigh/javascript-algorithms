@@ -10,6 +10,7 @@ If a character is already in the window (checked via bitSet), we increment the l
 We update the result res whenever we find a longer substring by calculating the difference between r and l.
 """
 
+# 3. Longest Substring Without Repeating Characters
 def lengthOfLongestSubstring(s: str) -> int:
     if not s:
         return 0

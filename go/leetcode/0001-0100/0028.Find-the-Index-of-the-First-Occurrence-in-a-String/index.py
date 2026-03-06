@@ -1,5 +1,3 @@
-import re
-
 """
 Explanation:
 
@@ -17,6 +15,8 @@ This solution manually checks substrings of the haystack of the same length as n
 """
 
 # solution 1
+import re
+
 def strStr2(haystack, needle):
     match = re.search(needle, haystack)
     return match.start() if match else -1

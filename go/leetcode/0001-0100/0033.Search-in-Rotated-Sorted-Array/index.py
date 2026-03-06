@@ -12,6 +12,7 @@ Binary Search Approach:
 Time Complexity: This algorithm runs in O(log n) time, similar to regular binary search, because we reduce the search space by half in each iteration.
 """
 
+# 33. Search in Rotated Sorted Array
 def search(nums, target):
     low, high = 0, len(nums) - 1
 

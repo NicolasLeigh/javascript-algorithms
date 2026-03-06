@@ -22,6 +22,7 @@ Time Complexity:
     Both binary search functions have a time complexity of O(log n), making the overall time complexity of the searchRange function O(log n).
 """
 
+# 34. Find First and Last Position of Element in Sorted Array
 def searchRange(nums, target):
     return [searchFirstEqualElement(nums, target), searchLastEqualElement(nums, target)]
 

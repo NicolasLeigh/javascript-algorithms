@@ -8,6 +8,7 @@ Time complexity: O(n · m)
 n = number of strings
 m = length of the shortest string
 """
+
 # 14. Longest Common Prefix
 def longestCommonPrefix(strs: list[str]) -> str:
     if not strs:

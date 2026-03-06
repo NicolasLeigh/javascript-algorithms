@@ -1,3 +1,4 @@
+# 36. Valid Sudoku
 def isValidSudoku(board):
     rows = [set() for _ in range(9)]
     cols = [set() for _ in range(9)]

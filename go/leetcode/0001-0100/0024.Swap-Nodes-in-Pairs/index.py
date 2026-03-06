@@ -24,6 +24,7 @@ class ListNode:
         self.val = val
         self.next = next
 
+# 24. Swap Nodes in Pairs
 def swapPairs(head):
     if not head or not head.next:
         return head
