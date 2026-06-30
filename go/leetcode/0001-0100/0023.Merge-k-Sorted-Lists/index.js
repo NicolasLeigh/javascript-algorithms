@@ -10,6 +10,8 @@
  * @return {ListNode}
  */
 
+// 23. Merge k Sorted Lists
+
 var mergeKLists = function (lists) {
   if (lists.length === 0) return null;
   if (lists.length === 1) return lists[0];
