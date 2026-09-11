@@ -3,6 +3,7 @@
  * @return {boolean}
  */
 
+// 125. Valid Palindrome (Easy)
 function isPalindrome(s) {
   s = s.toLowerCase();
   let i = 0;

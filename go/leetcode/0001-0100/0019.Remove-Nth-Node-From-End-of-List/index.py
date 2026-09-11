@@ -26,7 +26,7 @@ def removeNthFromEnd(head: ListNode, n: int) -> ListNode:
         n -= 1
 
     # Move both pointers until fast reaches the end
-    while fast.next:
+    while fast and fast.next:
         slow = slow.next
         fast = fast.next
 

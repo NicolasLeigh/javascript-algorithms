@@ -17,8 +17,12 @@ def isValidBST(root: TreeNode) -> bool:
 
     inorder(root)
 
-    for i in range(len(temp_arr) - 1):
-        if temp_arr[i] >= temp_arr[i + 1]:
+    # for i in range(len(temp_arr) - 1):
+    #     if temp_arr[i] >= temp_arr[i + 1]:
+    #         return False
+
+    for i in range(1, len(temp_arr)):
+        if temp_arr[i-1] >= temp_arr[i]:
             return False
 
     return True

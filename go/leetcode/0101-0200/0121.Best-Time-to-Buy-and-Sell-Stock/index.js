@@ -22,6 +22,7 @@ var maxProfit = function (prices) {
   return maxProfit;
 };
 
+// 121. Best Time to Buy and Sell Stock
 // Greedy
 var maxProfit = function (prices) {
   let minPrice = prices[0];

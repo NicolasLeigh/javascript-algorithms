@@ -16,6 +16,7 @@ var maxProfit = function (prices) {
   return dp[prices.length - 1][1];
 };
 
+// 122. Best Time to Buy and Sell Stock II
 // Greedy
 var maxProfit = function (prices) {
   // prices[3] - prices[0] = (prices[3] - prices[2]) + (prices[2] - prices[1]) + (prices[1] - prices[0])

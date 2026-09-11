@@ -3,6 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
+// 167. Two Sum II - Input Array Is Sorted (Medium)
 var twoSum = function (numbers, target) {
   let i = 0;
   let j = numbers.length - 1;

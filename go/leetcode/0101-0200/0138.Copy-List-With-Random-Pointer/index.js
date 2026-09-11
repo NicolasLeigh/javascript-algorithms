@@ -12,6 +12,7 @@
  * @return {_Node}
  */
 
+// 138. Copy List with Random Pointer (Medium)
 var copyRandomList = function (head) {
   if (head === null) return null;
 

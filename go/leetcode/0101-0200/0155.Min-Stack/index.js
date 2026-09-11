@@ -40,6 +40,7 @@ MinStack.prototype.getMin = function () {
 };
 
 // =============================
+// 155. Min Stack (Medium)
 // Class-based solution
 class MinStack {
   constructor() {

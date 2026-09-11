@@ -11,6 +11,8 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
+
+// 101. Symmetric Tree
 var isSymmetric = function (root) {
   if (root === null) return true;
   function recur(node1, node2) {

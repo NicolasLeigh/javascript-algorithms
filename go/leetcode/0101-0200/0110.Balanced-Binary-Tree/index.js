@@ -28,6 +28,7 @@ var isBalanced = function (root) {
 };
 
 // Solution 2
+// 110. Balanced Binary Tree
 // Main function to check if the tree is balanced
 var isBalanced = function (root) {
   if (!root) return true;

@@ -10,6 +10,8 @@
  * @param {ListNode} head
  * @return {boolean}
  */
+
+// 141. Linked List Cycle (Easy)
 var hasCycle = function (head) {
   let slow = head;
   let fast = head;

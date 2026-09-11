@@ -2,6 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
+// 162. Find Peak Element (Medium)
 var findPeakElement = function (nums) {
   const n = nums.length;
 

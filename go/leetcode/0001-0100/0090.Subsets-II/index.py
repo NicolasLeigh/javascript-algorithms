@@ -16,7 +16,7 @@ This ensures:
     [2, 2] is still allowed
 """
 
- def subsetsWithDup(nums):
+def subsetsWithDup(nums):
     res = []
     comb = []
 

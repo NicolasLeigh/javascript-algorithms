@@ -3,6 +3,7 @@
  * @param {number} k
  * @return {number}
  */
+// 215. Kth Largest Element in an Array (Medium)
 var findKthLargest = function (nums, k) {
   nums.sort((a, b) => b - a);
   return nums[k - 1];

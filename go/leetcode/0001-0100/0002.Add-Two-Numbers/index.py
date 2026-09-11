@@ -19,8 +19,8 @@ class ListNode:
 
 # 2. Add Two Numbers
 def addTwoNumbers(l1, l2):
-    head = ListNode(0)  # Dummy head
-    current = head
+    dummy = ListNode(0)  # Dummy head
+    current = dummy
 
     carry = 0
 
@@ -38,4 +38,4 @@ def addTwoNumbers(l1, l2):
         if l2:
             l2 = l2.next
 
-    return head.next
+    return dummy.next

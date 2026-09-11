@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-// 1. Two Sum 
+// 1. Two Sum
 var twoSum = function (nums, target) {
   let map = new Map();
   let result = [];
@@ -20,4 +20,13 @@ var twoSum = function (nums, target) {
   }
 
   return result;
+};
+
+const answer = (nums, target) => {
+  let map = new Map();
+  for (let i = 0; i < nums.length; i++) {
+    let dif = target - nums[i];
+    if (map.has(dif)) return [i, map.get(dif)];
+    map.set(nums[i], i);
+  }
 };

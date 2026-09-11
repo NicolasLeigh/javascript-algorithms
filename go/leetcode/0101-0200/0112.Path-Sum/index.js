@@ -12,6 +12,8 @@
  * @param {number} targetSum
  * @return {boolean}
  */
+
+// 112. Path Sum
 var hasPathSum = function (root, targetSum) {
   if (root === null) return false;
 

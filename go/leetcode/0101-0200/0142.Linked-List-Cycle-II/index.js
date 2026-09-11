@@ -12,6 +12,7 @@
  * @return {ListNode}
  */
 
+// 142. Linked List Cycle II
 var detectCycle = function (head) {
   let slow = head;
   let fast = head;

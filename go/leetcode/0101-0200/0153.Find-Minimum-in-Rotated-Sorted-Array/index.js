@@ -2,6 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
+// 153. Find Minimum in Rotated Sorted Array (Medium)
 var findMin = function (nums) {
   let left = 0;
   let right = nums.length - 1;
